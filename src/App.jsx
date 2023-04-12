@@ -10,7 +10,10 @@ function App() {
   return (
     <main className="App">
       <h1>Clicks {count}</h1>
-      <button onClick={() => setCount((count) => JSON.parse(count) + 1)}>
+      <button
+        className="btn-click"
+        onClick={() => setCount((count) => JSON.parse(count) + 1)}
+      >
         Click Here
       </button>
     </main>
